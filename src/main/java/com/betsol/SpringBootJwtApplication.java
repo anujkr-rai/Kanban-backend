@@ -8,7 +8,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-@CrossOrigin(origins = "https://demokanbanfront.herokuapp.com")
+@CrossOrigin(maxAge = 3600)
 
 public class SpringBootJwtApplication {
 
