@@ -21,7 +21,8 @@ import com.betsol.repository.UserRepository;
 import com.betsol.service.JwtUserDetailsService;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "https://demokanbanfront.herokuapp.com")
+
 public class JwtAuthenticationController {
 
 	@Autowired
